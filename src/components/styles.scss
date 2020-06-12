@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  background-color: #f4f6fa;
+}
+.fr-mail-block {
+  padding: 40px;
+}
+
+.fr-mail-block.flex {
+  display: flex;
+  .fk-mail-body-block {
+    width: 80%;
+  }
+}
+.fk-mail-list-block {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    height: 100vh;
+  }
+  .fk-mail-item-block {
+    border: 1px solid #dadce3;
+    margin: 12px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background: white;
+    color: #636363;
+    display: flex;
+    cursor: pointer;
+    &.select {
+      border: 1px solid #e54065;
+    }
+  }
+
+  .fk-mail-image {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: #e54065;
+    color: white;
+    font-family: "nexa-bold";
+    text-transform: capitalize;
+    font-size: 17px;
+  }
+  .fk-mail-content-block {
+    font-family: "nexa-regular";
+    font-size: 14px;
+
+    span {
+      font-weight: bold;
+      span {
+        text-transform: lowercase;
+      }
+    }
+  }
+
+  .fk-mail-name-block {
+    text-transform: capitalize;
+    padding: 4px 0px;
+  }
+
+  .fk-bottom-panel {
+    font-size: 12px;
+    display: flex;
+  }
+  .fk-mail-fav-element {
+    margin-left: 50px;
+    color: #e54065;
+  }
+}
+
+.fk-mail-body-block {
+  border: 1px solid #dadce3;
+  margin: 12px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  background: white;
+  color: #636363;
+  font-family: "nexa-regular";
+  height: fit-content;
+}
+
+.fk-mail-body-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fk-mail-body-left {
+  display: flex;
+}
+.fk-mail-image {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background: #e54065;
+  color: white;
+  font-family: "nexa-bold";
+  text-transform: capitalize;
+  font-size: 17px;
+  margin-right: 20px;
+}
+.fk-mail-subject-element {
+  font-family: nexa-heavy;
+  font-size: 23px;
+  letter-spacing: 1px;
+  margin-bottom: 17px;
+}
+
+.fk-mail-date-element {
+  font-size: 14px;
+}
+.fk-mail-fav-icon {
+  font-size: 13px;
+  background: #e54065;
+  color: white;
+  border-radius: 25px;
+  padding: 6px 13px;
+  cursor: pointer;
+}
+
+.fk-mail-filter-block {
+  font-family: nexa-Heavy;
+  font-size: 16px;
+}
